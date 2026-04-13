@@ -95,7 +95,14 @@ node index.js
 Example route:
 
 ```id="api1"
-/api/users
+POST -> /api/v1/users
+
+Also can have body with:
+    {
+        "sortKey": "ASC",
+        "sortValue": "ID",
+        "filter": " AND NAME = 'Rohit'"
+    }
 ```
 
 * First call → fetches from DB and caches it
@@ -126,6 +133,15 @@ npm install
 * Clean project structure (routes, services, config)
 * Environment-based configuration
 * Scalable backend pattern
+
+---
+
+## 📦 Packages 
+* express   # Used to create the Express server  
+* mysql2    # Used to connect to the MySQL database  
+* redis     # Used to store data in cache  
+* dotenv    # Used to securely store environment variables  
+* morgan    # Used for logging requests to the console (optional)  
 
 ---
 
