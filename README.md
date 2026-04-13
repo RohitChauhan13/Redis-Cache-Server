@@ -137,12 +137,13 @@ npm install
 ---
 
 ## 📦 Packages 
-* express   # Used to create the Express server  
-* mysql2    # Used to connect to the MySQL database  
-* redis     # Used to store data in cache  
-* dotenv    # Used to securely store environment variables  
-* morgan    # Used for logging requests to the console (optional)  
-
+```text
+* express           # Used to create the Express server  
+* mysql2            # Used to connect to the MySQL database  
+* redis             # Used to store data in cache  
+* dotenv            # Used to securely store environment variables  
+* morgan            # Used for logging requests to the console (optional)  
+```
 ---
 
 ## 📜 License
